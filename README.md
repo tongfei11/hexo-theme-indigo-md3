@@ -27,7 +27,14 @@
 
 ## 🛠️ 安装与启用
 
-1. 将本主题克隆/解压至 Hexo 博客的 `themes/indigo-md3` 目录下。
+1. 将本主题克隆至 Hexo 博客的 `themes/indigo-md3` 目录下：
+   ```bash
+   git clone https://github.com/tongfei11/hexo-theme-indigo-md3.git themes/indigo-md3
+   ```
+   或者将其作为 Git 子模块（Submodule）添加：
+   ```bash
+   git submodule add https://github.com/tongfei11/hexo-theme-indigo-md3.git themes/indigo-md3
+   ```
 2. 打开 Hexo 博客根目录下的 `_config.yml` 配置文件。
 3. 找到 `theme` 项，并将其修改为 `indigo-md3`：
    ```yaml
